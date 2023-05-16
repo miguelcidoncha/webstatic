@@ -3,7 +3,7 @@
     height: auto;
 }
 
-.header {
+#header {
     width: auto;
     height: 6.25rem;
     background-color: whitesmoke;
@@ -12,12 +12,12 @@
     flex-direction: row;
 }
 
-.box1 {
+#box1 {
     width: 50%;
     height: 100%;
 }
 
-#element1 {
+.element1 {
     width: 25%;
     height: 90%;
     background-image: url(imagenes/Travel\ Buddy.png);
@@ -27,7 +27,7 @@
     margin-top: 1%;
 }
 
-.box2 {
+#box2 {
     width: 50%;
     height: 100%;
     display: flex;
@@ -36,31 +36,31 @@
     font-size: 1.4375rem;
 }
 
-#element2 {
+.element2 {
     width: auto;
     height: auto;
     margin: auto;
 }
 
-#element3 {
+.element3 {
     width: auto;
     height: auto;
     margin: auto;
 }
 
-#element4 {
+.element4 {
     width: auto;
     height: auto;
     margin: auto;
 }
 
-#element5 {
+.element5 {
     width: auto;
     height: auto;
     margin: auto;
 }
 
-#button {
+.button {
     border-radius: 25%;
     width: 10.625rem;
     height: 4.375rem;
@@ -69,7 +69,7 @@
     color: blue;
 }
 
-.container {
+#container {
     width: auto;
     height: auto;
     background-color: midnightblue;
@@ -78,7 +78,7 @@
     justify-content: center;
 }
 
-.box3 {
+#box3 {
     width: 50%;
     height: auto;
     margin: auto;
@@ -87,11 +87,11 @@
     font-size: 1.5625rem;
 }
 
-#paragraph {
+.paragraph {
     font-size: .9375rem;
 }
 
-.box4 {
+#box4 {
     width: 70%;
     height: 31.25rem;
     background-image: url(imagenes/Aero.png);
@@ -101,7 +101,7 @@
     margin-left: 15%;
 }
 
-.container2 {
+#container2 {
     border-bottom: 1px grey solid;
     width: auto;
     height: auto;
@@ -111,18 +111,18 @@
     justify-content: space-around;
 }
 
-.box5 {
+#box5 {
     width: 28%;
     height: auto;
     padding-top: 1%;
 }
 
-#title1 {
+.title1 {
     color: blue;
     font-size: 2.1875rem;
 }
 
-.box6 {
+#box6 {
     width: 38%;
     height: 21.875rem;
     background-image: url(imagenes/Circulo.png);
@@ -131,7 +131,7 @@
     background-position: center center;
 }
 
-.container3 {
+#container3 {
     border-bottom: 1px grey solid;
     width: auto;
     height: auto;
@@ -141,7 +141,7 @@
     justify-content: space-around;
 }
 
-.box7 {
+#box7 {
     width: 38%;
     height: 21.875rem;
     background-image: url(imagenes/Circulo2.png);
@@ -150,18 +150,18 @@
     background-position: center center;
 }
 
-.box8 {
+#box8 {
     width: 28%;
     height: auto;
     padding-top: 1%;
 }
 
-#title1 {
+.title1 {
     color: blue;
     font-size: 2.1875rem;
 }
 
-.container4 {
+#container4 {
     border-bottom: 1px grey solid;
     width: auto;
     height: auto;
@@ -171,18 +171,18 @@
     justify-content: space-around;
 }
 
-.box9 {
+#box9 {
     width: 28%;
     height: auto;
     padding-top: 1%;
 }
 
-#title1 {
+.title1 {
     color: blue;
     font-size: 2.1875rem;
 }
 
-.box10 {
+#box10 {
     width: 38%;
     height: 21.875rem;
     background-image: url(imagenes/Circulo3.png);
@@ -191,7 +191,7 @@
     background-position: center center;
 }
 
-.container5 {
+#container5 {
     width: auto;
     height: auto;
     background-color: lightskyblue;
@@ -200,7 +200,7 @@
     justify-content: center;
 }
 
-.box11 {
+#box11 {
     width: 50%;
     height: auto;
     margin: auto;
@@ -209,7 +209,7 @@
     font-size: 1.5625rem;
 }
 
-.box12 {
+#box12 {
     width: 70%;
     height: 31.25rem;
     margin-bottom: 2%;
@@ -220,7 +220,7 @@
     margin-left: 23%;
 }
 
-.container6 {
+#container6 {
     border-bottom: 1px grey solid;
     width: auto;
     height: auto;
@@ -230,11 +230,11 @@
     justify-content: space-around;
 }
 
-#list {
+.list {
     list-style-type: none;
 }
 
-.box13 {
+#box13 {
     width: 38%;
     height: 21.875rem;
     background-image: url(imagenes/Tra.png);
@@ -243,7 +243,7 @@
     background-position: center center;
 }
 
-.box14 {
+#box14 {
     width: 15%;
     height: 25%;
     margin: auto;
@@ -251,14 +251,14 @@
     line-height: 1.5625rem;
 }
 
-.box15 {
+#box15 {
     width: 15%;
     height: 25%;
     margin: auto;
     line-height: 1.5625rem;
 }
 
-.box16 {
+#box16 {
     width: 15%;
     height: 25%;
     margin: auto;
@@ -266,7 +266,7 @@
     line-height: 1.5625rem;
 }
 
-.footer {
+#footer {
     width: auto;
     height: auto;
     display: flex;
@@ -274,7 +274,7 @@
     justify-content: center;
 }
 
-.box17{
+#box17{
     width: auto;
     height: auto;
     margin-top: 5%;
@@ -283,7 +283,7 @@
     color: turquoise;
 }
 
-.box18 {
+#box18 {
     width: auto;
     height: auto;
     margin-bottom: 5%;
