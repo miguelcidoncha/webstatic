@@ -49,6 +49,11 @@
     background-color: turquoise;
     font-weight: bolder;
     color: blue;
+    transition: background-color 0.3s;
+}
+
+.button:active {
+    background-color: aquamarine;
 }
 
 #container {
